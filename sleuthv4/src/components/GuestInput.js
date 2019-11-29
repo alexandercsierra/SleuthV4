@@ -2,6 +2,7 @@ import React from 'react';
 
 function GuestInput(props){
     const {setGlState} = props;
+    
     return(
         <form>
             <input type="text"placeholder="Enter guest name"></input>
