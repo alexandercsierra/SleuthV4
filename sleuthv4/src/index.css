@@ -25,12 +25,19 @@ code {
   background: rgb(51,51,51);
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .display p {
   font-size: 3rem;
+}
+
+input {
+  padding: 10px;
+  margin : 4%;
+  font-size: 1.2rem;
 }
 
 button {
@@ -41,4 +48,17 @@ button {
   background: dodgerblue;
   color: white;
   border-radius: 5px;
+  width: 18%;
+}
+
+.Reset {
+  background: red;
+}
+
+.Yes {
+  background: red;
+}
+
+.hide {
+  display: none;
 }

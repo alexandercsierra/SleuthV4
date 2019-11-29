@@ -6,7 +6,7 @@ function Buttons(props){
     const arr = buttonLabels;
     const btns = arr.map(label => {
         return (
-            <button key = {label} className={label} onClick = {(e) => {
+            <button key = {label} className={`${label} hide`} onClick = {(e) => {
                 e.preventDefault();
                 btnVal = label;
                 console.log(btnVal);
